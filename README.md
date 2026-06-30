@@ -113,7 +113,7 @@ Thus, RT-SFOD should be viewed as a lightweight source-free adaptation framework
 ## Repository Structure
 
 - `scripts/YOLO26/stage0_stage1_adabn_rc_yolo26.py`: Stage 0 + Stage 1 AdaBN warm start.
-- `scripts/YOLO26/stage2_rtsfod_yolo26.py`: Main paper-aligned RT-SFOD Stage 2 implementation with DHF and MARD.
+- `scripts/YOLO26/stage2_rtsfod_yolo26.py`: RT-SFOD Stage 2 implementation with DHF and MARD.
 - `ultralytics/`: YOLO26 detector implementation and supporting Ultralytics codebase.
 
 The core RT-SFOD contribution is contained in the Stage 1 and Stage 2 scripts. The method can be ported to other dual-head detectors by replacing the detector-specific prediction, loss, and feature-extraction interfaces.
